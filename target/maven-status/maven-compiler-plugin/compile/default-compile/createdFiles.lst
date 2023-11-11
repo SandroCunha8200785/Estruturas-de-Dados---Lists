@@ -1,0 +1,10 @@
+Exceptions\EmptyListException.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\OrderedListADT.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\Person.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\DoubleLinkedList$DoublyLinkedListIterator.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\DoubleLinkedList$BiNode.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\DoubleLinkedList.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\DoubleLinkedListImplementation.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\OrderedDoubleLinkedList.class
+pt\ipp\estg\ed\doublelinkedlistimplementation\ListADT.class
+Exceptions\NoMoreElementsException.class
