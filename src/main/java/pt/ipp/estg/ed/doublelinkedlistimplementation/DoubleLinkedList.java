@@ -179,7 +179,12 @@ public abstract class DoubleLinkedList<T> implements ListADT<T>{
             if (!this.okToRemove) {
                 throw new IllegalStateException("Iterator.remove() só pode ser chamado após next()");
             }
-
+            
+            try {
+                DoubleLinkedList.this.remove((T) atual);
+            } catch (EmptyListException ex) {
+                System.out.println(ex);
+            }
             
             this.okToRemove = false;
         }
@@ -190,7 +195,7 @@ public abstract class DoubleLinkedList<T> implements ListADT<T>{
          */
         private void checkForConcurrentModification() {
             
-            if (modCount != expectedModCount) {
+            if (modCount != this.expectedModCount) {
                 throw new ConcurrentModificationException("Modificações concorrentes detetadas.");
             }   
         }

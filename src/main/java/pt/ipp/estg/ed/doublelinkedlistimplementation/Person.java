@@ -2,7 +2,7 @@
 package pt.ipp.estg.ed.doublelinkedlistimplementation;
 
 /**
- *Classe que representa uma pessoa por nome e numero
+ *Classe que representa uma pessoa por nome e idade
  * @author SandroCunha8200785
  */
 public class Person implements Comparable<Person>{
